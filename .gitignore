@@ -1,16 +1,48 @@
-workspace.xml
-junitvmwatcher*.properties
-build.properties
+# Ignore node_modules (for Node.js projects)
+node_modules/
 
-# generated java classes and java source files
-#   manually add any custom artifacts that can't be generated from the models
-#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
-classes_gen
-source_gen
-source_gen.caches
+# Ignore Python cache files (for Python projects)
+__pycache__/
+*.py[cod]
+.env
 
-# generated test code and test results
-test_gen
-test_gen.caches
-TEST-*.xml
-junit*.properties
+# Ignore macOS files
+.DS_Store
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore IDE settings (like for VS Code or JetBrains)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore compiled files
+*.out
+*.exe
+*.dll
+*.txt
+# Ignore environment-specific files
+.env
+#ignore useless folder
+obj
+main
+temp
+UserSettings
+ProjectSettings
+*Library/
+Library/
+__Library__/
+.Library/
+*.Library/
+.assets
+*.assets
+*.assets/
+*.dag
+.graph
+.dylib
+Artifacts/
