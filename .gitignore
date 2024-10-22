@@ -29,20 +29,22 @@ __pycache__/
 # Ignore environment-specific files
 .env
 #ignore useless folder
-obj
-main
-temp
-UserSettings
-ProjectSettings
+/obj/
+/main/
+/temp/
+/UserSettings/
+/ProjectSettings/
 *Library/
 Library/
+/Library/
 __Library__/
 .Library/
 *.Library/
 .assets
 *.assets
 *.assets/
+/assets/
 *.dag
 .graph
 .dylib
-Artifacts/
+/Artifacts/
