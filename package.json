@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "asp.net": "^1.1.1"
+  }
+}
