@@ -1,0 +1,50 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python cache files (for Python projects)
+__pycache__/
+*.py[cod]
+.env
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore IDE settings (like for VS Code or JetBrains)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore compiled files
+*.out
+*.exe
+*.dll
+*.txt
+# Ignore environment-specific files
+.env
+#ignore useless folder
+/obj/
+/main/
+/temp/
+/UserSettings/
+/ProjectSettings/
+*Library/
+Library/
+/Library/
+__Library__/
+.Library/
+*.Library/
+.assets
+*.assets
+*.assets/
+/assets/
+*.dag
+.graph
+.dylib
+/Artifacts/
